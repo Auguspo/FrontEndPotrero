@@ -1,0 +1,41 @@
+body img {
+    position: relative;
+    margin-left:25%;
+    margin-right:25%;
+    width: 50%;
+
+}
+
+
+h1 {
+    font-size: 30px;
+    text-decoration: underline dotted;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-decoration: underline dotted;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+iframe{
+    position: relative;
+    margin-left:25%;
+    margin-right:25%;
+    width: 50%;  
+
+}
+
+li{
+font-style: italic  ;
+font-size: 12px;}
+
+p, li {
+margin: 0 20% 5px 20%;
+}
