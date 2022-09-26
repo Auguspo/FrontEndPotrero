@@ -3,9 +3,10 @@ body img {
     margin-left:25%;
     margin-right:25%;
     width: 50%;
-
 }
-
+body{
+    background-color: rgb(255, 255, 107);
+}
 
 h1 {
     font-size: 30px;
@@ -38,4 +39,5 @@ font-size: 12px;}
 
 p, li {
 margin: 0 20% 5px 20%;
+text-align: justify;
 }
