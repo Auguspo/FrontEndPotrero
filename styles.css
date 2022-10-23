@@ -125,6 +125,9 @@ aside {
   width: 30%;
   background-color: #fcf195;
 }
+aside p{
+    margin: 10%;
+}
 aside h3 {
   font-family: "Tangerine";
   font-size: xx-large;
@@ -195,11 +198,15 @@ aside h3 {
 
   aside {
     text-align: justify;
-    font-size: small;
+    
     width: 40%;
   }
   aside p {
     margin: 5%;
+    font-size: 0.75rem;
+  }
+  aside h3{
+    font-size: 1.2rem;
   }
 
   .second {
