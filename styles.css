@@ -20,17 +20,23 @@ main h1 {
   text-decoration: underline;
   text-align: center;
   font-family: "letras";
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 h2 {
   font-family: "letras";
   font-size: 25px;
   text-decoration: underline;
   text-align: center;
+  margin-top: 2.5vh;
+margin-bottom: 2.5vh;
 }
 
 h3 {
   font-size: 15px;
   text-align: center;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
 }
 
 iframe {
@@ -113,17 +119,21 @@ footer {
 }
 .first {
   width: 70%;
+  border: solid 2px black;
 }
 
 .second {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  
 }
 
 aside {
   width: 30%;
   background-color: #fcf195;
+  border: solid 2px black;
+  border-left: none;
 }
 aside p {
   margin: 10%;
@@ -146,6 +156,21 @@ aside h3 {
 @font-face {
   font-family: "letras";
   src: url("./font/bellada\ personal\ license.ttf");
+}
+
+
+.card{
+  margin: 1vw 1vw 1vw 1vw ;
+}
+
+.card-img-top{
+
+ padding-top: 12px;
+ margin: 0 0 0 0;
+}
+
+.card a{
+  margin-bottom: 10px;
 }
 
 .btn-wsp {
@@ -259,6 +284,8 @@ aside h3 {
   header {
     height: 15vh;
   }
+
+
 }
 @media (max-height: 400px) and (orientation: landscape) {
   .first p {
