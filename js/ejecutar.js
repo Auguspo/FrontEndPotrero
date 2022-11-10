@@ -4,6 +4,8 @@ function inclusive() {
   document.getElementById("aside").style.backgroundColor = "black"
   document.getElementById("header").style.backgroundColor = "grey"
   document.getElementById("aside").style.color = "white"  
+  document.getElementById("aside").style.borderColor = "white" 
+  document.getElementById("first").style.borderColor = "white" 
   document.getElementById("header").style.color = "white"
   document.getElementById("cd1").style.backgroundColor = "grey"
   document.getElementById("cd2").style.backgroundColor = "grey"

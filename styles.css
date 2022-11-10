@@ -3,6 +3,8 @@ body img {
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
+  margin-bottom: 5%;
+  margin-top: 2%;
 }
 body {
   background-color: rgb(255, 255, 107);
@@ -20,7 +22,7 @@ main h1 {
   text-decoration: underline;
   text-align: center;
   font-family: "letras";
-  margin-top: 4vh;
+  margin-top: 10vh;
   margin-bottom: 4vh;
 }
 h2 {
@@ -28,15 +30,15 @@ h2 {
   font-size: 25px;
   text-decoration: underline;
   text-align: center;
-  margin-top: 2.5vh;
+  margin-top: 5vh;
 margin-bottom: 2.5vh;
 }
 
 h3 {
   font-size: 15px;
   text-align: center;
-  margin-top: 2.5vh;
-  margin-bottom: 2.5vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 iframe {
@@ -123,12 +125,12 @@ footer {
 }
 
 
-.first {
+#first {
   width: 70%;
   border: solid 2px black;
 }
 
-.second {
+#second {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
