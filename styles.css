@@ -18,16 +18,16 @@ main {
   flex-wrap: wrap;
 }
 main h1 {
-  font-size: 30px;
+  font-size: 10vh;
   text-decoration: underline;
   text-align: center;
   font-family: "letras";
-  margin-top: 10vh;
+  margin-top: 6vh;
   margin-bottom: 4vh;
 }
 h2 {
   font-family: "letras";
-  font-size: 25px;
+  font-size: 8vh;
   text-decoration: underline;
   text-align: center;
   margin-top: 5vh;
@@ -35,7 +35,7 @@ margin-bottom: 2.5vh;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 8vh;
   text-align: center;
   margin-top: 5vh;
   margin-bottom: 5vh;
@@ -45,6 +45,8 @@ iframe {
   position: relative;
   margin-left: 25%;
   margin-right: 25%;
+  margin-bottom: 4vh;
+  margin-top:2vh;
   width: 50%;
   height: 22.25vw;
 }
@@ -52,12 +54,14 @@ iframe {
 main li {
   font-style: italic;
   font-size: 12px;
+  font-size:3vh;
 }
 
 main p,
 li {
   margin: 0 20% 5px 20%;
   text-align: justify;
+  
   }
 
 
@@ -150,8 +154,7 @@ aside p {
 }
 aside h3 {
   font-family: "Tangerine";
-  font-size: xx-large;
-}
+  }
 
 .mapita {
   width: 30vh;
@@ -174,12 +177,15 @@ aside h3 {
   margin: 1vw 1vw 1vw 1vw ;
   --bs-card-bg: none;
   background-color: white;
+  padding: 5px;
+  
 }
 
 .card-img-top{
+ border-radius: 2%;
+  margin: 0 0 0 0;
+ 
 
- padding-top: 12px;
- margin: 0 0 0 0;
 }
 
 .card a{
@@ -220,7 +226,7 @@ aside h3 {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   main h1 {
     font-size: large;
   }
@@ -234,10 +240,10 @@ aside h3 {
     margin: 0 25% 0 25%;
   }
 
-  .first {
+  #first {
     width: 60%;
   }
-  .first p {
+  #first p {
     margin: 5%;
   }
 
@@ -254,16 +260,16 @@ aside h3 {
     font-size: 1.2rem;
   }
 
-  .second {
+  #second {
     width: 100%;
     margin: 0%;
   }
 
-  .second ul {
+  #second ul {
     padding-left: 0px;
   }
 
-  .second ol {
+  #second ol {
     padding-left: 0px;
   }
   main p ul ol {
@@ -300,10 +306,13 @@ aside h3 {
     height: 15vh;
   }
 
+  .btn{
+    width:auto;
+  }
 
 }
 @media (max-height: 400px) and (orientation: landscape) {
-  .first p {
+  #first p {
     margin: 0 10% 6vh 10%;
     width: 80%;
   }
@@ -313,7 +322,7 @@ aside h3 {
     width: 40vw;
   }
 
-  .second iframe {
+  #second iframe {
     height: 69.5vh;
     width: 123.5vh;
     margin-left: 20%;
