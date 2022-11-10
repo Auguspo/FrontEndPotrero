@@ -234,10 +234,10 @@ aside h3 {
     margin: 0 25% 0 25%;
   }
 
-  .first {
+  #first {
     width: 60%;
   }
-  .first p {
+  #first p {
     margin: 5%;
   }
 
@@ -254,16 +254,16 @@ aside h3 {
     font-size: 1.2rem;
   }
 
-  .second {
+  #second {
     width: 100%;
     margin: 0%;
   }
 
-  .second ul {
+  #second ul {
     padding-left: 0px;
   }
 
-  .second ol {
+  #second ol {
     padding-left: 0px;
   }
   main p ul ol {
@@ -303,7 +303,7 @@ aside h3 {
 
 }
 @media (max-height: 400px) and (orientation: landscape) {
-  .first p {
+  #first p {
     margin: 0 10% 6vh 10%;
     width: 80%;
   }
