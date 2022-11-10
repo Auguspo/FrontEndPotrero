@@ -44,6 +44,7 @@ iframe {
   margin-left: 25%;
   margin-right: 25%;
   width: 50%;
+  height: 22.25vw;
 }
 
 main li {
@@ -55,11 +56,11 @@ main p,
 li {
   margin: 0 20% 5px 20%;
   text-align: justify;
-  color: rgba(0, 0, 0, 0.788);
-}
+  }
+
 
 header {
-  background-color: blanchedalmond;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -71,11 +72,12 @@ header {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
   margin: auto;
+  background-color: blanchedalmond;
 }
 
 .logo {
   height: auto;
-  width: 25vh;
+  width: 10vw;
   margin: 0 0 -1.5vh 0;
 }
 
@@ -106,17 +108,21 @@ footer {
 
 .redes {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2%;
   width: 30%;
+  
 }
 
 .redes a {
-  margin: 10%;
-  color: black;
+  margin: 10%;  
   font-size: xx-large;
+  color:black
+  
 }
+
+
 .first {
   width: 70%;
   border: solid 2px black;
@@ -131,11 +137,13 @@ footer {
 
 aside {
   width: 30%;
-  background-color: #fcf195;
   border: solid 2px black;
   border-left: none;
+  background: #fcf195;
+  color: black;
 }
 aside p {
+  
   margin: 10%;
 }
 aside h3 {
@@ -144,13 +152,13 @@ aside h3 {
 }
 
 .mapita {
-  width: 20%;
-  height: auto;
+  width: 30vh;
+  height: 20vh;
   margin: 2%;
 }
 
 .copy {
-  width: 30%;
+  width: 10%;
 }
 
 @font-face {
@@ -159,8 +167,11 @@ aside h3 {
 }
 
 
+
 .card{
   margin: 1vw 1vw 1vw 1vw ;
+  --bs-card-bg: none;
+  background-color: white;
 }
 
 .card-img-top{
@@ -265,6 +276,8 @@ aside h3 {
   .logo {
     width: 5rem;
   }
+
+  .btn{width:1vw}
 
   header {
     height: 10vh;

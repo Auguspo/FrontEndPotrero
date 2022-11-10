@@ -31,49 +31,58 @@
     />
 
     <title>Receta de Mousse de limon</title>
+
+    <script>
+      alert("¿Queres seguir los pasos del raton?")
+  </script>
   </head>
 
   <body>
-    <header>
+    <header id="header" class="navbar-header">
       <img id="logo1" class="logo" src="./img/Remy.png" alt="erro" />
       <img id="logo2" class="logo" src="./img/gordo.png" alt="erro" />
       <h1 class="titulo">Recetario del raton</h1>
 
-      <div class="redes">
+      <div id="redes" class="redes">
+        
+        <a  target="”_blank”" href="">
+          <i class="fa fa-instagram icono "></i></a>
         <a target="”_blank”" href="">
-          <i class="fa fa-instagram icono"></i><i class="bi bi-instagram"></i>
-        </a>
+          <i class="fa fa-facebook icono"></i></a>
         <a target="”_blank”" href="">
-          <i class="fa fa-facebook icono"></i><i class="bi bi-facebook"></i
-        ></a>
-        <a target="”_blank”" href="">
-          <i class="fa fa-whatsapp icono"></i><i class="bi bi-whatsapp"></i
-        ></a>
+          <i class="fa fa-whatsapp icono"></i></a>
+
+      
       </div>
+      
     </header>
 
-    <nav>
-      <a
+    <nav id="nav">
+      <a class="nav-link"
         target="_blank"
         href="https://www.paulinacocina.net/postre-de-maicena/26464"
         >Postre de Maicena</a
       >
 
-      <a
+      <a class="nav-link"
         target="_blank"
         href="https://www.paulinacocina.net/creme-brulee-tradicional/25276"
         >Creme Brulee</a
       >
 
-      <a target="_blank" href="https://www.paulinacocina.net/banana-split/25338"
+      <a class="nav-link"
+      target="_blank" 
+      href="https://www.paulinacocina.net/banana-split/25338"
         >Banana Split</a
       >
 
-      <a
+      <a class="nav-link"
         target="_blank"
         href="https://www.paulinacocina.net/como-hacer-torta-helada-pionono/11300"
         >Torta Helada</a
       >
+
+      <button class="navbar-toggler" onclick="inclusive()"><i class="fa fa-moon-o"></i></button>
     </nav>
 
     <main>
@@ -85,8 +94,8 @@
       />
 
       <section class="first">
-        <h2>Historia</h2>
-        <p>
+        <h2 class="txt">Historia</h2>
+        <p class="txt">
           La historia se situa en el siglo XIX durante el sitio a la ciudad de
           Astorga por los franceses. Cuenta que una noche el cocinero mayor del
           ejército, Francoise Masette, queriendo agradar al emperador francés
@@ -105,16 +114,17 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
-      <aside>
-        <h3>Tipos de mousse</h3>
-        <p>
+
+      <aside id="aside">
+        <h3 class="txt">Tipos de mousse</h3>
+        <p class="txt">
           Se pueden hacer muchos tipos de mousse, aunque seguramente el más
           tentador, sobre todo para los más golosos, es el tradicional mousse de
           chocolate, un postre tradicional y originario de la cocina francesa
           que ha conquistado en todo el mundo.
         </p>
 
-        <p>
+        <p class="txt">
           Dentro de los distintos tipos de mousse que se pueden elaborar, vemos
           que el mousse francés utiliza clara de huevo, crema de leche o nata,
           azúcar y en el caso del mousse de chocolate, el cacao pertinente.
@@ -125,7 +135,7 @@
       </aside>
 
       <section class="second">
-        <h2>Instructivo</h2>
+        <h2 class="txt">Instructivo</h2>
 
         <iframe
           width="560"
@@ -184,10 +194,10 @@
       </section>
 
       <div class="grid-container ">
-        <div class="row d-flex justify-content-center">
-          <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
+        <div  class="row d-flex justify-content-center">
+          <div id="cd1" class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
             <img src="./img/Gravy.webp" class="card-img-top" alt="..." />
-            <div class="card-body">
+            <div  class="card-body">
               <h5 class="card-title">
                 Salsa Gravy. Receta tradicional para acompañar carnes y asados
               </h5>
@@ -199,7 +209,7 @@
             >
           </div>
 
-          <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
+          <div id="cd2" class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
             <img src="./img/pan.webp" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">
@@ -213,7 +223,7 @@
             >
           </div>
 
-          <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
+          <div id="cd3" class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
             <img src="./img/risotto.webp" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Cómo hacer un risotto perfecto</h5>
@@ -225,7 +235,7 @@
             >
           </div>
 
-          <div class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
+          <div id="cd4" class="card col-lg-3 col-md-6 col-sm-12" style="width: 18rem">
             <img src="./img/tarta.webp" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">
@@ -266,8 +276,10 @@
       </div>
 
       <div class="copy">
-        <li><p>Todos los derechos reservados Augusto Poletti 2022</p></li>
+        <button class="btn btn-light" onclick="copy()"> Copyright © </button>
       </div>
     </footer>
+
+  <script src="./js/ejecutar.js"></script>
   </body>
 </html>
